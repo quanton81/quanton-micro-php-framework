@@ -1,5 +1,7 @@
 <?php
 
+// http://www.diplod.it/2008/01/21/installare-apache-php-mysql-su-windows-vista/
+
 class Form extends CI_Controller 
 {
     private $_captcha;
