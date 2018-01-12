@@ -1,3 +1,39 @@
 bg.siteorigin.com
 https://codepen.io/FelixRilling/pen/qzfoc
 https://stackoverflow.com/questions/34556024/how-to-do-a-true-carbon-fiber-css-background
+
+/*                background-image: linear-gradient(45deg, white 25%, transparent 25%, transparent 75%, white 75%, white), linear-gradient(45deg, white 25%, transparent 25%, transparent 75%, white 75%, white), linear-gradient(to bottom, rgb(248, 248, 248), rgb(224, 224, 224));
+                background-size: 14px 14px, 14px 14px, 14px 7px;
+                background-position: 0px 0px, 7px 7px, 0px 0px;
+                -moz-border-radius: 2px; 
+                -webkit-border-radius: 2px; 
+                border-radius: 2px;*/
+                
+/*                background-image: 
+                    linear-gradient(45deg, #000 25%, transparent 25%, transparent 75%, #000 75%, #000), 
+                    linear-gradient(45deg, #000 25%, transparent 25%, transparent 75%, #000 75%, #000), 
+                    linear-gradient(to bottom, rgb(6, 6, 6), rgb(22, 22, 22));
+                background-size: 
+                    14px 14px, 
+                    14px 14px, 
+                    14px 7px;
+                background-position: 
+                    0px 0px, 
+                    7px 7px, 
+                    0px 0px;*/
+                
+/*                background: #ffffff;
+                background-image:
+                    radial-gradient(rgba(0, 0, 0, 1) 30%, transparent 40%, rgba(0,0,0,0.5) 50%);
+                background-size:
+                    10px 10px;
+                background-position:
+                    0px 0px;*/
+                
+/*                background: #000;
+                background-image:
+                    radial-gradient(rgba(0,0,0,1) 20%, rgba(215,215,215,0.35) 35%, rgba(0,0,0,1) 50%);
+                background-size:
+                    10px 10px;
+                background-position:
+                    0px 0px;*/
