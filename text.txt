@@ -37,3 +37,44 @@ https://stackoverflow.com/questions/34556024/how-to-do-a-true-carbon-fiber-css-b
                     10px 10px;
                 background-position:
                     0px 0px;*/
+                    
+.top-bar {
+    @include breakpoint(medium up) { 
+        display: flex !important;
+        justify-content: center; 
+    }
+}
+
+<div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+    <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+    <div class="title-bar-title">Site Title 1</div>
+</div>
+<div class="top-bar" id="responsive-menu">
+    <ul class="dropdown menu vertical medium-horizontal show-for-medium" data-dropdown-menu>
+        <li class="menu-text">Site Title 2</li>
+    </ul>
+    <ul class="dropdown menu vertical medium-horizontal" data-dropdown-menu>
+        <li>
+            <a href="#">One</a>
+            <ul class="menu vertical">
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Two</a></li>
+        <li><a href="#">Three</a></li>
+    </ul>
+    <ul class="dropdown menu vertical medium-horizontal" data-dropdown-menu>
+        <li>
+            <a href="#">Four</a>
+            <ul class="menu vertical">
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Five</a></li>
+        <li><a href="#">Six</a></li>
+    </ul>
+</div>
