@@ -78,3 +78,31 @@ https://stackoverflow.com/questions/34556024/how-to-do-a-true-carbon-fiber-css-b
         <li><a href="#">Six</a></li>
     </ul>
 </div>
+
+#RewriteEngine on
+#RewriteCond %{REMOTE_ADDR} !=127.0.0.1
+#RewriteCond %{HTTPS} off [OR]
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+#RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+#RewriteRule ^ https://www.%1%{REQUEST_URI} [L,NE,R=301]
+#
+#RewriteBase /
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond $1 !^(index\.php)
+#
+#RewriteRule ^(.*)$ index.php?/$1 [L]
+#
+#ExpiresActive On
+#
+#ExpiresByType image/gif "access plus 1 month"
+#ExpiresByType image/jpg "access plus 1 month"
+#ExpiresByType image/jpeg "access plus 1 month"
+#ExpiresByType image/png "access plus 1 month"
+#ExpiresByType image/x-icon "access plus 1 year"
+#ExpiresByType image/ico "access plus 1 year"
+#ExpiresByType application/javascript "now plus 1 month"
+#ExpiresByType application/x-javascript "now plus 1 month"
+#ExpiresByType text/javascript "now plus 1 month"
+#ExpiresByType text/css "now plus 1 month"
+##ExpiresDefault "access plus 1 day"
