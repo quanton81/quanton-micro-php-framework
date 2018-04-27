@@ -1,6 +1,7 @@
 bg.siteorigin.com
 https://codepen.io/FelixRilling/pen/qzfoc
 https://stackoverflow.com/questions/34556024/how-to-do-a-true-carbon-fiber-css-background
+https://softwareengineering.stackexchange.com/questions/283107/difference-between-class-scope-and-object-scope-design-patterns
 
 /*                background-image: linear-gradient(45deg, white 25%, transparent 25%, transparent 75%, white 75%, white), linear-gradient(45deg, white 25%, transparent 25%, transparent 75%, white 75%, white), linear-gradient(to bottom, rgb(248, 248, 248), rgb(224, 224, 224));
                 background-size: 14px 14px, 14px 14px, 14px 7px;
